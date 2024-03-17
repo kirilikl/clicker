@@ -1,5 +1,6 @@
 # Игра кликер
 ![Красивая картиночка](https://img.freepik.com/free-photo/chocolate-chip-cookies-isolated-white-background-ai-generative_123827-24066.jpg)
+
 **Кликер** - бесконечная игра по накоплению бесполезных очков при нажатии на картиночки
 
 Возможности игры:
