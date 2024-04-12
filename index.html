@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Clicker</title>
 		<link href="style.css" rel="stylesheet" />
-		<script src="script.js"></script>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 	</head>
 	<body>
-		<main>
-			<div class="textContainer">
+		<div class="mainContainer">
+			<div class="menu">
 				<p>Inspired by classic clicker games!</p>
 				<p>
 					<a
@@ -18,17 +18,21 @@
 					>
 					on Freepik
 				</p>
+				<div class="newGame menuButton">New Game</div>
+				<div class="continue menuButton">Continue</div>
 			</div>
-			<div class="buttonContainer">
-				<button id="newGame">New Game</button>
-				<button id="continue">Continue</button>
+			<div class="game">
+				<div class="shopL"></div>
+				<div class="cookieContainer">
+					<p>Cookies:</p>
+					<p class="score">0</p>
+					<img class="cookie" src="src/cookie.png" />
+				</div>
+				<div class="statistics"></div>
 			</div>
-		</main>
-		<div class="container">
-			<div class="leftStore"></div>
-			<div class="cookieContainer"></div>
-			<div class="rightStore"></div>
 		</div>
+		<script src="/script.js"></script>
+		<script src="/src/anime.min.js"></script>
 	</body>
 </html>
 
