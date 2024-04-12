@@ -19,7 +19,7 @@ cookie.addEventListener("click", () => {
 		targets: ".cookie",
 		scale: 1.08,
 		duration: 200,
-	}).finished(
+	}).complete(
 		anime({
 			targets: ".cookie",
 			scale: 1.0,
