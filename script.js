@@ -44,7 +44,3 @@ setInterval(() => {
 	score += autoClick
 	scoreHTML.innerHTML = score
 }, 1000)
-
-let array
-
-let score2
