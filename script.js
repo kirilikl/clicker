@@ -46,3 +46,5 @@ setInterval(() => {
 }, 1000)
 
 let array
+
+let score2
